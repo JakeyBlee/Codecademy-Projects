@@ -1,0 +1,249 @@
+/* Global Styles */
+* {
+    font-family: 'source sans pro', sans-serif;
+    line-height: 1.4;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+body{
+    background-color: #44525f;
+    min-width: fit-content;
+    height: fit-content;
+}
+
+header{
+    min-width: 100%;
+    z-index: 1;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 100px;
+    font-family: 'playfair display';
+    padding: 0.4em;
+    height: fit-content;
+    display: block;
+    width: 100%;
+    background-image: url("background.jpg");
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;;
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: #82958d;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 5px 5px;
+    z-index: 1;
+}
+
+.navigation{
+    border-bottom: black 1px solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.navigation li{
+    display: inline-block;
+    border: solid black 1px;
+    background-color: #f4f2ee;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 5px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navigation li:hover{
+    cursor: pointer;
+    background-color: #44525f;
+    transition: 0.3s ease-in-out;
+}
+
+.navigation li:active{
+    background-color: beige;
+}
+
+li.future{
+    display: none;
+}
+
+/* Main Content */
+
+main{
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+h2{
+    font-weight: 500;
+    font-family: 'fanwood text';
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 0.2em;
+}
+
+section{
+    margin: 0 30px 20px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #f4f2ee;
+    border: #82958d 2px solid;
+    box-shadow: 5px 5px;
+}
+
+/* Colours */
+
+.palette{
+    background-color: beige;
+    padding: 5px;
+    margin: 10px 0;
+    border: #82958d 2px solid;
+    display: inline-block;
+    clear: both;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.palette div{
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    padding-top: 40px;
+    font-size: 16px;
+}
+
+.palette span{
+    background-color: white;
+    padding: 3px;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+.blue-1{
+    background-color: #00072D;
+}
+.blue-2{
+    background-color: #001C55;
+}
+.blue-3{
+    background-color: #0A2472;
+}
+.blue-4{
+    background-color: #0E6BA8;
+}
+.blue-5{
+    background-color: #A6E1FA;
+}
+.red-1{
+    background-color: #2E0000;
+}
+.red-2{
+    background-color: #540000;
+}
+.red-3{
+    background-color: #730A0A;
+}
+.red-4{
+    background-color: #A80D0D;
+}
+.red-5{
+    background-color: #FAA5A5;
+}
+.green-1{
+    background-color: #2C2E00;
+}
+.green-2{
+    background-color: #505400;
+}
+.green-3{
+    background-color: #6F730A;
+}
+.green-4{
+    background-color: #A1A80D;
+}
+.green-5{
+    background-color: #F6FAA5;
+}
+
+/* Font Families */
+
+table{
+    background-color: beige;
+    border: #82958d 2px solid;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+tbody>tr>:nth-child(1),
+th{
+    font-weight: bold;
+    border: #82958d 2px solid;
+    padding: 1.2em;
+}
+
+td{
+    border: #82958d 1px solid;
+    padding: 1.2em;
+}
+
+#t1{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+}
+#t2{
+    font-family: 'Lobster Two';
+    font-weight: 700;
+}
+#t3{
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+#t4{
+    font-family: 'Fanwood Text';
+    font-weight: 400;
+}
+#t5{
+    font-family: 'Alegreya Sans';
+    font-weight: 100;
+}
+#t6{
+    font-family: 'Assistant';
+    font-weight: 600;
+}
+#t7{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+}
+#t8,
+#t9{
+    font-family: 'Amiko';
+    font-weight: 400;
+}
+
+/* Footer */
+
+footer{
+    padding: 20px 0;
+    margin: 0 5em;
+    z-index: 1;
+    background-color: #82958d;
+    border: black 1px solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px;
+}

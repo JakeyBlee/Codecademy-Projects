@@ -1,0 +1,125 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: cadetblue;
+    border-bottom: beige 3px solid;
+    z-index: 1;
+}
+
+ul{
+    padding: 10px 0px;
+}
+
+nav li{
+    display:inline-block;
+    color: black;
+    background-color:beige;
+    padding: 5px 20px;
+    border: solid rgb(0, 0, 0) 3px;
+    border-radius: 10px;
+}
+
+nav li:hover{
+    color:beige;
+    background-color:grey;
+    border-color: beige;
+}
+
+h1,
+h2{
+    border: black 0.1em solid;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    display: inline-block;
+    background-color: white;
+}
+
+main h1{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+main{
+    position:relative;
+    top: 20px; 
+    background-color: antiquewhite;
+    padding: 4em 2em;
+    width: 100%;
+    min-width: fit-content;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+.intro ul{
+    display: inline-block;
+    border: rgb(0, 0, 0) 5px solid;
+    border-radius: 50px;
+    background-color: cadetblue;
+    max-width: 550px;
+    list-style: none;
+}
+
+.intro li{
+    margin: 10px;
+    padding: 0;
+}
+
+.intro li .label{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tag{
+    color: crimson;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+table{
+    border: black 3px solid;
+    border-radius: 10px;
+    margin-top: 16px;
+    background-color: white;
+    display: inline-block;
+}
+
+table th{
+    background-color: cadetblue;
+    border-bottom: black 3px solid;
+}
+
+table td{
+    border: grey 1px solid;
+    border-radius: 5px;
+}
+
+table tr:hover{
+    background-color: rgba(95, 158, 160, 0.3);
+}
+
+p{
+    margin: 16px 0px;
+}
+
+.afterword{
+    margin-bottom: 30px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: cadetblue;
+    border-top: beige 3px solid;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semantics | Cheatsheet Project</title>
+    <link href='resources/css/styles.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Navigation links to follow -->
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Cheatsheets</li>
+                <li>Exit</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Cheatsheet Project - HTML Semantics</h1>
+        <section class="intro">
+            <p>Good semantics in HTML - and coding in general - provide numerous benefits that positively impact both programmers and users alike.</p>
+            <ul>
+                <li><span class="label">Accessibility</span><br>
+                    Good semantics allow browsers to interpret code better, which allows them to better enable access for those with disabilities.</li>
+                <li><span class="label">Search Engine Optimisation</span><br>
+                    It allows search engines to better identify the content of the webpage to allow for more accurate search results.</li>
+                <li><span class="label">Understandability</span><br>
+                    It allows other developers (or future you!) to be able to easily grasp the structure of your code to build on or adapt.</li>
+            </ul>
+            <p>In HTML code we can often observe <strong>divitis</strong>, which is the excessive use of <span class="tag">&ltdiv&gt</span> elements. <span class="tag">&ltdiv&gt</span> elements are non-semantic and offer no description of their containing information.<br>
+            <br>
+            It is best practice to avoid <span class="tag">&ltdiv&gt</span> elements as much as possible and instead use more semantic elements in their place.</p>
+        </section>
+        <section class="semantic-terms">
+            <h2>HTML Semantic Terms</h2><br>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Tag</th>
+                        <th scope="col">Meaning</th>
+                    <th scope="col">When to use</th>
+                    </tr>
+                    <tr>
+                        <td class="tag">&ltheader&gt</td>
+                        <td>Header</td>
+                        <td class="definition">Usually for navigational lists or introductory content.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&ltnav&gt</td>
+                        <td>Navigation</td>
+                        <td class="definition">Encapsulates navigation links, usually within the <span class="tag">&ltheader&gt</span> element.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&ltmain&gt</td>
+                        <td>Main</td>
+                        <td class="definition">Used to encapsulate the main, dominant content of a webpage.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&ltsection&gt</td>
+                        <td>Section</td>
+                        <td class="definition">Defines elements of a document of the same theme; i.e chapters.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&ltarticle&gt</td>
+                        <td>Article</td>
+                        <td class="definition">Content that would make sense on its own, i.e articles; blogs; comments; magazines.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&ltaside&gt</td>
+                        <td>Aside</td>
+                        <td class="definition">Encompasses additional information that can enhance another element, but isn't required.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&ltfigure&gt</td>
+                        <td>Figure</td>
+                        <td class="definition">Includes images and their grouped <span class="tag">&ltfigcaption&gt</span>.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&ltfigcaption&gt</td>
+                        <td>Figure Caption</td>
+                        <td class="definition">Links to the parent <span class="tag">&ltfigure&gt</span> and describes the content.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&ltaudio&gt</td>
+                        <td>Audio</td>
+                        <td class="definition">Similar to <span class="tag">&ltfigure&gt</span>; encapsulates a section of audio tags.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&ltfooter&gt</td>
+                        <td>Footer</td>
+                        <td class="definition">Usually contains contact information, copyright, terms of use, a sitemap and links to top of page.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&ltsmall&gt</td>
+                        <td>Small</td>
+                        <td class="definition">Often seen within a <span class="tag">&ltfooter&gt</span> or <span class="tag">&ltaside&gt</span>, containing copyright information or legal disclaimers.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lttime&gt</td>
+                        <td>Time</td>
+                        <td class="definition">Allows an unambigous ISO 8601 date to be attached to a human-readable version of that date.</td>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+        <section class="afterword">
+            <h2>Additional Semantic Tips</h2>
+            <p>Good use of elements can go a long way, but its also important to practice proper indentation of your code.<br>
+            This both helps with readability, and also helps a great deal with syling the webpage through CSS.<br>
+            <br>
+            You can also make your code more readable by including comments to signpost readers, or starting a new line each time a <span class="tag">&ltbr&gt</span> is used.<br>
+            <br>
+            Inspect this code and see what has been done to improve its semantics and readability!</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Written by Jacob Blackburn | <time datetime="2022-09-02">Friday, 02 September 2022</time></p>
+    </footer>
+</body>
+</html>
