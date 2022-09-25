@@ -1,0 +1,63 @@
+/* Global styles */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "karma", "Times New Roman";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url("./images/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: "Playball", "Brush Script MT";
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+}
+
+p, button{
+    text-align: center;
+    font-size: 20px;
+    padding: 2%;
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+p{
+    margin: 3%;  
+}
+
+button{
+    font-family: "Cormorant Garamond", "Garamond";
+  background-color: rgb(245, 227, 205);  
+}
+
+button:hover{
+    cursor: pointer;
+    filter: saturate(50%);
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 1000px;
+    padding: 5%;
+    margin: 5%;
+    height: fit-content;
+    border: 2px #4E655C solid;
+    background-image: linear-gradient(to bottom right, antiquewhite, rgb(196, 165, 40));
+    border-radius: 2rem;
+}
+
+section *{
+    display: block;
+}
